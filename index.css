@@ -1,0 +1,39 @@
+.enterar {
+    background-color: black;
+    border: solid;
+}
+
+textarea {
+    resize: none;
+    border: none;
+}
+
+textarea:focus {
+    border: solid;
+    border-color: red;
+}
+
+button {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+}
+
+.enterar {
+      width: 200px;
+      height: 200px;
+      background-color: #fff;
+      border-radius: 10px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: box-shadow 0.2s ease;
+    }
+
+body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0;
+    }
